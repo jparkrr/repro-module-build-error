@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "repro-web-notifications-crash",
-    "slug": "repro-web-notifications-crash",
+    "name": "repro-module-build-error",
+    "slug": "repro-module-build-error",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.reachvote.repromodulebuilderror"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3cfdd099-aea5-40fd-88d9-06d08a04b357"
+      }
     }
   }
 }
